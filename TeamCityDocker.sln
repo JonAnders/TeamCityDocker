@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDocker.Web", "TeamCityDocker.Web\TeamCityDocker.Web.csproj", "{7F0AA609-79F6-42EE-BF3D-9C53C3C0ACB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDocker.UnitTests", "TeamCityDocker.UnitTests\TeamCityDocker.UnitTests.csproj", "{EE19397F-EB1D-4A99-838D-18DE9434145B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{7F0AA609-79F6-42EE-BF3D-9C53C3C0ACB0}.Release|x64.Build.0 = Release|Any CPU
 		{7F0AA609-79F6-42EE-BF3D-9C53C3C0ACB0}.Release|x86.ActiveCfg = Release|Any CPU
 		{7F0AA609-79F6-42EE-BF3D-9C53C3C0ACB0}.Release|x86.Build.0 = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|x64.Build.0 = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE19397F-EB1D-4A99-838D-18DE9434145B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
