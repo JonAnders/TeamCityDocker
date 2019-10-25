@@ -3,4 +3,5 @@ WORKDIR /app
 COPY . .
 RUN dotnet restore
 
-ENTRYPOINT ["dotnet", "test", "TeamCityDocker.UnitTests/TeamCityDocker.UnitTests.csproj"]
+WORKDIR /app/TeamCityDocker.UnitTests
+ENTRYPOINT ["dotnet", "test"]
