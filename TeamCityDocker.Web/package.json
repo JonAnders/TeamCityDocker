@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "rairai": "date -Iseconds > wwwroot/npmresult.txt; echo 'npm -v:' >> wwwroot/npmresult.txt; npm -v >> wwwroot/npmresult.txt; echo 'hostname:' >> wwwroot/npmresult.txt; hostname >> wwwroot/npmresult.txt"
+    }
+}
