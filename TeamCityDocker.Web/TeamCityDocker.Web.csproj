@@ -8,4 +8,8 @@
   <ItemGroup>
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="date -Iseconds &gt; wwwroot/dotnet-build.txt; echo '\ndotnet --version:' >> wwwroot/dotnet-build.txt; dotnet --version >> wwwroot/dotnet-build.txt; echo '\nhostname:' >> wwwroot/dotnet-build.txt; hostname >> wwwroot/dotnet-build.txt" />
+  </Target>
+
 </Project>
